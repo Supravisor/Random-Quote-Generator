@@ -1,0 +1,38 @@
+
+body {
+    background: grey;
+  }
+  
+  h1 {
+    color: red;
+  }
+  
+  #quote-box {
+    padding-top: 10vh;
+    width: 40vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  button {
+    font-family: monospace;
+    font-size: 0.8em;
+  }
+  
+  #buttons {
+    font-size: 2em;
+    text-align: right;
+  }
+  
+  #tweet {
+    background-color: #f3f7fa;
+    border: 1px solid DarkGrey;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  img {
+    height: 0.7em;
+  }
