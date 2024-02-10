@@ -10,12 +10,6 @@
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
 
-<script>
-  function refresh() {
-    location.reload();
-  }
-</script>
-
 <style>
    body {
   background-color: grey;
@@ -29,7 +23,11 @@
     <div id="buttons">
       <span id="new-quote"></span>
       
+
         <button id="tweet" class="btn" type="button"><a id="tweet-quote" target="_blank" href="https://twitter.com/intent/tweet><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/X_logo_2023_original.svg/240px-X_logo_2023_original.svg.png" /> Post</a></button>
+        <a id="tweet-quote" target="_blank" href="https://twitter.com/intent/tweet><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/X_logo_2023_original.svg/240px-X_logo_2023_original.svg.png" /> Post</a>
+      </button>
+
     </div>
   </div>
 
