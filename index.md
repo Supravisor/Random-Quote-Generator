@@ -14,6 +14,24 @@
    body {
   background-color: grey;
 }
+  #buttons {
+    font-size: 2em;
+    text-align: right;
+  }
+  
+  #tweet {
+    background-color: #f3f7fa;
+    border: 1px solid DarkGrey;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  img {
+    height: 0.7em;
+  }
+  
 </style>
  
 
