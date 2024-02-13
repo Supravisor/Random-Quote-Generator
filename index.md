@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>Random Quote Generator</title>
   <link rel="stylesheet" href="./style.css">
+<!--- add Post button -->
 
 </head>
 <body>
