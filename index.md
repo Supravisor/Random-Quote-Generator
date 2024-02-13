@@ -206,6 +206,10 @@ class MyQuotes extends React.Component {
       React.createElement("button", { className: "btn btn-primary", onClick: this.handleChange }, "New Quote")));
 
 
+      React.createElement("button", { id: "tweet", class: "btn", type: "button" }, /*#__PURE__*/
+      React.createElement("a", { id: "tweet-quote", target: "_blank", href: "https://twitter.com/intent/tweet" }, /*#__PURE__*/
+      React.createElement("img", { src: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/X_logo_2023_original.svg/240px-X_logo_2023_original.svg.png" }), " Post"))));
+
 
   }}
 
