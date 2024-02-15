@@ -41,15 +41,9 @@
   <div id="quote-box">
     <article id="text"></article>
     <article id="author"></article>
-    <div id="buttons">
-      <span id="new-quote"></span>
-        <button id="tweet" class="btn" type="button">
-          <a id="tweet-quote" target="_blank" href="https://twitter.com/intent/tweet">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/X_logo_2023_original.svg/240px-X_logo_2023_original.svg.png" /> Post</a>
-        </button>
-
-    TEST
-    </div>
+      <div id="buttons">
+        <span id="new-quote"></span>
+      </div>
   </div>
 
   
