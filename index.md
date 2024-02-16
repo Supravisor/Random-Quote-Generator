@@ -47,7 +47,7 @@
   </div>
 
   
-
+<script src='https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js'></script>
 
 <script type="module">
 import ReactDOM from "https://esm.sh/react-dom";
