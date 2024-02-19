@@ -1,14 +1,57 @@
 
+
 <!DOCTYPE html>
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
   <title>CodePen - A Pen by MisterData</title>
-  <link rel="stylesheet" href="./style.css">
 
-<style>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
+
+  <style>
+
+  body {
+
+
+
+
    body {
+
   background-color: grey;
+}
+
+h1 {
+  color: red;
+}
+
+#quote-box {
+  padding-top: 10vh;
+  width: 40vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button {
+  font-family: monospace;
+  font-size: 0.8em;
+}
+
+#buttons {
+  font-size: 2em;
+  text-align: right;
+}
+
+#tweet {
+  background-color: #f3f7fa;
+  border: 1px solid DarkGrey;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  height: 0.7em;
 }
 </style>
 
@@ -16,6 +59,7 @@
 <body>
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
+
 
   <div id="quote-box">
     <article id="text"></article>
