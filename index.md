@@ -213,6 +213,7 @@ class MyQuotes extends React.Component {
       fontStyle: "italic" };
 
     const buttons = {
+      display: "flex",
       justifyContent: "flex-end" };
 
     const post = {
