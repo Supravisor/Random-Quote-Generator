@@ -212,6 +212,9 @@ class MyQuotes extends React.Component {
       fontFamily: "Candara",
       fontStyle: "italic" };
 
+    const buttons = {
+      justifyContent: "flex-end" };
+
     const post = {
       textAlign: "right" };
 
@@ -223,7 +226,7 @@ class MyQuotes extends React.Component {
       React.createElement("i", { style: quoteMarks }, "\u201D")), /*#__PURE__*/
 
       React.createElement("br", null), /*#__PURE__*/
-      React.createElement("article", null, /*#__PURE__*/
+      React.createElement("article", {className: "buttons"}, /*#__PURE__*/
       React.createElement(Author, { random: this.state.randomIndex }), /*#__PURE__*/
       React.createElement("button", { className: "btn btn-primary", onClick: this.handleChange }, "New Quote"), /*#__PURE__*/
 
