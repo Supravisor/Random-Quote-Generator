@@ -1,4 +1,3 @@
-
 import ReactDOM from "https://esm.sh/react-dom";
 
 const quotes = [
@@ -16,8 +15,7 @@ const quotes = [
   author: "Albert Einstein" },
 
 {
-  quote:
-  "You are never too old to set another goal or to dream a new dream.",
+  quote: "You are never too old to set another goal or to dream a new dream.",
   author: "C.S. Lewis" },
 
 {
@@ -39,8 +37,7 @@ const quotes = [
   author: "Jim Rohn" },
 
 {
-  quote:
-  "If I cannot do great things, I can do small things in a great way.",
+  quote: "If I cannot do great things, I can do small things in a great way.",
   author: "Martin Luther King, Jr." },
 
 {
@@ -115,12 +112,12 @@ const colors = [
 "SeaShell"];
 
 
-
 class MyQuotes extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       randomIndex: Math.floor(Math.random() * 20) };
+
 
     this.handleChange = this.handleChange.bind(this);
   }
@@ -130,7 +127,6 @@ class MyQuotes extends React.Component {
 
   }
   render() {
-
     const quoteStyle = {
       backgroundColor: colors[this.state.randomIndex],
       fontFamily: "Segoe Print",
@@ -143,18 +139,30 @@ class MyQuotes extends React.Component {
       fontFamily: "Candara",
       fontStyle: "italic" };
 
+    const buttons = {
+      display: "flex",
+      justifyContent: "space-evenly" };
+
 
     return /*#__PURE__*/(
       React.createElement("div", null, /*#__PURE__*/
-      React.createElement("article", { style: quoteStyle }, /*#__PURE__*/React.createElement("i", { style: quoteMarks }, "\u201C"), quotes[this.state.randomIndex].quote, /*#__PURE__*/React.createElement("i", { style: quoteMarks }, "\u201D")), /*#__PURE__*/
+      React.createElement("article", { style: quoteStyle }, /*#__PURE__*/
+      React.createElement("i", { style: quoteMarks }, "\u201C"),
+      quotes[this.state.randomIndex].quote, /*#__PURE__*/
+      React.createElement("i", { style: quoteMarks }, "\u201D")), /*#__PURE__*/
+
       React.createElement("br", null), /*#__PURE__*/
+
       React.createElement(Author, { random: this.state.randomIndex }), /*#__PURE__*/
-      React.createElement("button", { className: "btn btn-primary", onClick: this.handleChange }, "New Quote")));
+      React.createElement("br", null), /*#__PURE__*/
 
+      React.createElement("article", { style: buttons }, /*#__PURE__*/
+      React.createElement("button", { className: "btn btn-primary", onClick: this.handleChange }, "New Quote"), /*#__PURE__*/
 
-
+      React.createElement("button", { id: "tweet", class: "btn", type: "button" }, /*#__PURE__*/
+      React.createElement("a", { id: "tweet-quote", target: "_blank", href: "https://twitter.com/intent/tweet" }, /*#__PURE__*/
+      React.createElement("img", { src: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/X_logo_2023_original.svg/240px-X_logo_2023_original.svg.png" }), " Post")))));
   }}
-
 
 
 class Author extends React.Component {
@@ -163,19 +171,15 @@ class Author extends React.Component {
   }
   render() {
     var number = this.props.random;
-    return /*#__PURE__*/(
-      React.createElement("article", { style: authorStyle },
-      quotes[number].author));
-
-
+    return /*#__PURE__*/React.createElement("article", { style: authorStyle }, quotes[number].author);
   }}
-;
 
 
 const authorStyle = {
   fontFamily: "Arial",
   fontSize: "1.7em",
   textAlign: "right" };
+
 
 
 

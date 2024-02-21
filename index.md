@@ -68,9 +68,9 @@ img {
 
   <script src='https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js'></script>
 
-<script type="module">
+<script type="module" src="./script.js">
 
-
+/*
 import ReactDOM from "https://esm.sh/react-dom";
 
 const quotes = [
@@ -264,7 +264,7 @@ const authorStyle = {
 
 
 ReactDOM.render( /*#__PURE__*/React.createElement(MyQuotes, null), document.getElementById("text"));
-
+*/
 </script>
 </body>
 </html>
